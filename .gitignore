@@ -39,3 +39,6 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 .env
+Vagrantfile
+after.sh
+aliases
