@@ -16,6 +16,7 @@ module.exports = {
         filename: 'app.js',
         path: path.resolve(__dirname, 'public', 'js')
     },
+    watch: true,
     plugins: [
     new webpack.optimize.UglifyJsPlugin({
       compress: { warnings: false }

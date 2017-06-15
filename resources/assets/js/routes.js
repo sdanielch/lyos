@@ -7,7 +7,8 @@
  */
 import $ from 'jquery';
 import Backbone from 'backbone';
-
+import EventEmitter from 'events';
+import Window from './core/Window';
 
 export default class Route extends Backbone.Router {
     get routes() {
