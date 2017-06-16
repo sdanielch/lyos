@@ -7,6 +7,7 @@
  */
 
 import EventEmitter from 'events';
+import { Dimension } from './utils';
 import { Exception, DimensionException } from './exceptions/exceptions';
 
 export default class Window extends EventEmitter {
@@ -38,11 +39,18 @@ export default class Window extends EventEmitter {
 		this.on('close', this.onClose);
 	}
 
-	setTitle(title='') {
+	setTitle(title) {
+		if(typeof title !== 'string') {
+			throw new Exception('title must be string');
+		}
+
 		this.title = title;
 	}
 
 	setWidth(x) {
+		if(x < 0) {
+
+		}
 		this.x = x;
 	}
 
