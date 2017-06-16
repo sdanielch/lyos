@@ -34,4 +34,8 @@ export default class Application {
 
 		this.window = window;
 	}
+
+	destroy() {
+		
+	}
 }
