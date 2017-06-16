@@ -22,6 +22,7 @@ export default class Route extends Backbone.Router {
 
     index() {
         console.log('hello world!');
+        // const app = new Application(null);
     }
 
     signUp() {
