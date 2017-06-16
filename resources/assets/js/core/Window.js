@@ -8,7 +8,7 @@
 
 import EventEmitter from 'events';
 import { Dimension } from './utils';
-import { Exception, DimensionException } from './exceptions/exceptions';
+import { Exception, DimensionException } from './exceptions';
 
 export default class Window extends EventEmitter {
 	constructor(application=null, title='', width=100, height=100, x=0, y=0, z='auto') {

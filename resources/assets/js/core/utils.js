@@ -1,4 +1,12 @@
-import { Exception, DimensionException } from './exceptions/exceptions';
+/**
+ * LayanOS
+ *
+ * @link      https://github.com/sdanielch/lyos
+ * @copyright Copyright (c) 2017 LayanOS
+ * @license   https://github.com/sdanielch/lyos/blob/master/README.md (GPL-3.0 License)
+ */
+
+import { Exception, DimensionException } from './exceptions';
 
 export class Dimension {
 	constructor(width, height) {
